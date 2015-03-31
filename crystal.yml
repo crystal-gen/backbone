@@ -1,6 +1,6 @@
 name: backbone
 type: generator
-version: 1.0.1
+version: 0.1.0
 description: Backbone.js for crystal.
 author:
   name: Chris Tate
