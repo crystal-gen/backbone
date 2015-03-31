@@ -1,0 +1,7 @@
+name: backbone-test
+version: 0.1.0
+description: backbone test
+
+generators:
+  backbone:
+    version: latest

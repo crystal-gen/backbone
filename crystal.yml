@@ -1,0 +1,36 @@
+name: backbone
+type: generator
+version: 1.0.1
+description: Backbone.js for crystal.
+author:
+  name: Chris Tate
+  email: chris@studiotate.com
+copyright: 2014 Studio Tate
+repository:
+  type: git
+  url: https://github.com/studiotate/crystal-backbone.git
+spec:
+  host:
+    type: string
+generators:
+  project:
+    version: latest
+gen:
+  file:
+    models:
+      dest: "models/{{model.name.snake}}.js"
+      mapping:
+        model:
+          details:
+            type:
+              bool: Boolean
+              created: Date
+              date: Date
+              decimal: Number
+              deleted: Date
+              number: Number
+              select: String
+              string: String
+              text: String
+              updated: Date
+      spec: models
