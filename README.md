@@ -1,3 +1,3 @@
-# backbone v1.0.1
+# backbone v0.1.0
 
 Backbone.js for crystal.
